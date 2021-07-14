@@ -1,0 +1,24 @@
+name: DevQuiz
+description: DevQuiz - Gabul DEV
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  google_fonts: ^1.1.0
+  share_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/database/
+
+  uses-material-design: true
